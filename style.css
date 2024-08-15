@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #07faf3, #07fa36);
+}
+
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    border-radius: 15px; /* Rounded corners */
+    text-align: center;
+}
+
+.container #title {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.container #convert{
+    font-size: 40px;
+    border: none;
+    background: linear-gradient(to right, #07abfa, #07fa99);
+    color: black;
+    padding: 15px 50px;
+    border-radius: 15px; /* Rounded corners */
+    margin-top: 40px;
+}
+
+.container form{
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+
+.container form input{
+    border: none;
+    background-color: #eae7e6;
+    border-radius: 15px; /* Rounded corners */
+    height: 50px;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.material-symbols-outlined {
+  margin-left: 50px;
+  margin-right: 50px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-size: 48px !important;
+  user-select: none; 
+}
+
+.material-symbols-outlined:hover {
+    color: turquoise; /* Change color on hover */
+}
+
+.container #convert:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.selector {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 30px;
+    font-size: 20px;;
+}
+
+.container #result {
+    width: 80%;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 15px; /* Rounded corners */
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.container #footer{
+    margin-top:30px;
+    text-align: left;
+    margin-left: 20px;
+}
+
